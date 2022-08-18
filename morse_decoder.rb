@@ -26,3 +26,9 @@ MORSE_CODE = {
   '-.--' => 'Y',
   '--..' => 'Z'
 }.freeze
+
+def character_decod(lettre)
+    MORSE_CODE[lettre]
+end
+
+# def singleword_decod
